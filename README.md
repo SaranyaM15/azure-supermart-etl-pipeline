@@ -621,12 +621,7 @@ This project strengthened my understanding of how Azure data engineering compone
 
 ---
 
-## 💼 Interview Summary
-
-> I built an end-to-end batch ETL pipeline using Azure Data Factory, ADLS Gen2, and Azure SQL Database. The source retail CSV is ingested into an ADLS landing zone and preserved in a raw layer. ADF then loads the structured data into an Azure SQL staging table using explicit source-to-target mappings. A stored procedure cleans and converts the data into an analytics-ready final table. I implemented row-count reconciliation, null checks, duplicate validation, monitoring, and troubleshooting. During testing, I identified a date-format issue that produced null values despite a successful pipeline run, corrected the conversion logic, and validated the final output.
-
----
-
+ 
 ## 🔐 Security
 
 Never commit:
